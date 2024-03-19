@@ -11579,8 +11579,8 @@ html {
 }
  .profile-img {
   object-fit: contain;
-  height: 40rem;
-  width: 50rem;
+  height: 30rem;
+  width: 34rem;
   border-radius: 70px;
   position: absolute;
   bottom: 0;
@@ -11624,14 +11624,18 @@ html {
   fill: #1e30f3;
 }
 
-@media (min-width: 576px) {
+
+
+@media (max-width: 576px) {
   .profile {
-    width: 900px;
-    border: solid red;
+   max-width: 70vw;
+   max-height: 70vw;
+   
   }
   .profile .profile-img {
+
     border-radius: 40px;
-    width: 35rem;
+    width: 65rem;
 
   }
   .profile .dots-1 {
